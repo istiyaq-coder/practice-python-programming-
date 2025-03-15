@@ -1,0 +1,13 @@
+#METHOD 1
+num = int(input("enter a num"))
+z = int(input("enter the divisor"))
+
+print("remainder is=",num/z)
+
+Output:
+enter a num
+7
+enter the divisor
+7
+remainder is= 1.0
+#METHOD 2
