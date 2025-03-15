@@ -1,0 +1,22 @@
+#USER INPUT TO PRINT TO NUMBER
+num1 = input("enter num1\n")
+num2 = input("enter num2\n")
+sum = num1 + num2
+print(sum)
+output:
+enter num1
+3
+enter num2
+9
+39
+#USER INPUT TO ADD TO NUMBER
+num1 = float(input("enter num1\n"))
+num2 = float(input("enter num2\n"))
+sum = num1 + num2
+print(sum)
+Output:
+enter num1
+4
+enter num2
+9
+13.0
