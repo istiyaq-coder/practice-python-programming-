@@ -1,0 +1,15 @@
+a = 9
+print(type(a))
+b = 9.9
+print(type(b))
+c ="char"
+print(type(c))
+
+OUTPUT:
+<class 'int'>
+<class 'float'>
+<class 'str'>
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
