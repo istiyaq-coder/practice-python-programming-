@@ -1,0 +1,11 @@
+Q.Write a program to sum a list with 4 numbers
+INPUT:
+number = [1,2,3,4]
+sum = number[0]+number[1]+number[2]+number[3]
+print("the sum is ",sum)  
+
+OUTPUT:
+the sum is  10
+
+
+
