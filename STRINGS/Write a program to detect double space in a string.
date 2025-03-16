@@ -1,0 +1,11 @@
+ Q.Write a program to detect double space in a string.
+INPUT:
+string = str(input("enter the string: "))
+index = string.find("  ")
+if index != -1:
+    print(f"Double space detected at index {index}")  
+else:
+    print("No double spaces detected.") 
+OUTPUT:
+enter the string: Sun  produce light
+Double space detected at index 3
