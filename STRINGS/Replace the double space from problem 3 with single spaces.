@@ -1,0 +1,9 @@
+Q.Replace the double space from problem 3 with single spaces
+INPUT:
+string = str(input("enter the string: "))
+index = string.find("  ")
+Replaced_string = string.replace ("  "," " )
+print(Replaced_string )
+OUTPUT:
+enter the string: Sun  produce light
+Sun produce light
