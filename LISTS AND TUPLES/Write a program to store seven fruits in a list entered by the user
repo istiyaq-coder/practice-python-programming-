@@ -1,1 +1,23 @@
+Q.Write a program to store seven fruits in a list entered by the user.
+INPUT:
+fruit1 = input("the fruit1 is:")
+fruit2 = input("the fruit2 is:")
+fruit3 = input("the fruit3 is:")
+fruit4 = input("the fruit4 is:")
+fruit5 = input("the fruit5 is:")
+fruit6 = input("the fruit6 is:")
+fruit7 = input("the fruit7 is:")
 
+Fruits = [fruit1,fruit2,fruit3,fruit4,fruit5,fruit6,fruit7]
+
+print( "the list of fruits are :",Fruits)
+
+OUTPUT:
+the fruit1 is:apple
+the fruit2 is:banana
+the fruit3 is:orange
+the fruit4 is:watermelon
+the fruit5 is:grapes
+the fruit6 is:papaya
+the fruit7 is:mango
+the list of fruits are :['apple', 'banana', 'orange', 'watermelon', 'grapes', 'papaya', 'mango']
