@@ -1,0 +1,26 @@
+Q.Write a program to accept marks of 6 students and display them in a sorted
+manner
+INPUT:
+marks = []
+marks.append(int(input("Enter marks of student 1: ")))
+marks.append(int(input("Enter marks of student 2: ")))
+marks.append(int(input("Enter marks of student 3: ")))
+marks.append(int(input("Enter marks of student 4: ")))
+marks.append(int(input("Enter marks of student 5: ")))
+marks.append(int(input("Enter marks of student 6: ")))
+
+# Sort the marks in ascending order
+marks.sort()
+
+# Display the sorted marks
+print("\nSorted marks of the students are:",marks)
+OUTPUT:
+Enter marks of student 1: 77
+Enter marks of student 2: 88
+Enter marks of student 3: 99
+Enter marks of student 4: 98
+Enter marks of student 5: 99
+Enter marks of student 6: 100
+
+Sorted marks of the students are: [77, 88, 98, 99, 99, 100]
+
