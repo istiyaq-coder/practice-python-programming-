@@ -1,0 +1,6 @@
+INPUT:
+num = int(input("Enter num= "))
+square= num*num
+print("the square is",square)
+OUTPUT:
+the square is 9
