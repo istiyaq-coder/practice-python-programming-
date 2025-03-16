@@ -1,0 +1,21 @@
+Q.Write a program to fill in a letter template given below with name and date.
+letter = '''
+Dear <|Name|>,
+You are selected!
+<|Date|>
+INPUT:
+name = str(input("name "))
+date = int(input("date "))
+print(f"Dear <|{name}|>,")
+print("You are selected!")
+print(f"<|{date}|>")
+
+OUTPUT:
+name Istiyaq
+date 09
+Dear <|Istiyaq|>,
+You are selected!
+<|9|>
+
+
+
