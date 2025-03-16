@@ -1,0 +1,8 @@
+#METHOD 1
+a = 80
+b = 34
+print(a>b)
+OUTPUT :
+True
+
+
