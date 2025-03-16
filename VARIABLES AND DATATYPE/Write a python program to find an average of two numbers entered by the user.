@@ -1,0 +1,12 @@
+#INPUT
+num1 = int(input("Enter num1\n"))
+
+num2 = int(input("Enter num2\n"))
+average = (num1+num2)/2
+print(average)
+#OUTPUT
+Enter num1
+4
+Enter num2
+5
+the average is 4.5
