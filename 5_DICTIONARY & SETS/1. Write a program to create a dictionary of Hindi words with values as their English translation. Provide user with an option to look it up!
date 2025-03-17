@@ -1,2 +1,24 @@
-#Write a program to create a dictionary of Hindi words with values as their English
+Q.Write a program to create a dictionary of Hindi words with values as their English
 translation. Provide user with an option to look it up!
+
+INPUT:
+
+word = {"Apple" : "सेब",
+        "Book"  : "किताब",
+        "Friend" : "दोस्त",
+        "House" : "घर",
+        "School" : "स्कूल",
+        "Water" : "पानी",
+        "Love" : "प्यार",
+        "Sun" : "सूरज",
+        "Moon" : "चाँद",
+        "Happy" : "खुश",
+        "Good" : "अच्छा",
+ }
+
+print(word)
+OUTPUT:
+{'Apple': 'सेब', 'Book': 'किताब', 'Friend': 'दोस्त', 'House': 'घर', 'School': 'स्कूल', 'Water': 'पानी', 'Love': 'प्यार', 'Sun': 'सूरज', 'Moon': 'चाँद', 'Happy': 'खुश', 'Good': 'अच्छा'}
+
+
+
