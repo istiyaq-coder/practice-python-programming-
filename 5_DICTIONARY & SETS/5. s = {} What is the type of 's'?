@@ -1,0 +1,9 @@
+Q.5. s = {}
+What is the type of 's'?
+INPUT:
+s = {}
+print(type(s))
+
+OUTPUT:
+<class 'dict'>
+#A empty set is a dictionary
