@@ -1,0 +1,22 @@
+Q.A spam comment is defined as a text containing following keywords:
+“Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program
+to detect these spams.
+
+INPUT:
+    
+#Taking input from the user
+comment = input("Enter a text: ")
+
+# List of spam keywords
+spam_keywords = ["Make a lot of money", "buy now", "subscribe this", "click this"]
+
+# Check if any of the spam keywords are in the comment
+if any(keyword.lower() in comment.lower() for keyword in spam_keywords):
+    print("spam")
+else:
+    print("safe")
+
+OUTPUT:
+
+Enter a text: Make a lot of money here
+spam
