@@ -1,0 +1,35 @@
+Q.Create an empty dictionary. Allow 4 friends to enter their favorite language as
+value and use key as their names. Assume that the names are unique
+
+INPUT:
+# Create an empty dictionary
+lang = {}
+
+# Allow 4 friends to enter their names and favorite languages
+friend1_name = input("Enter the name of friend 1: ")
+lang[friend1_name] = input("Enter " + friend1_name + "'s favorite language: ")
+
+friend2_name = input("Enter the name of friend 2: ")
+lang[friend2_name] = input("Enter " + friend2_name + "'s favorite language: ")
+
+friend3_name = input("Enter the name of friend 3: ")
+lang[friend3_name] = input("Enter " + friend3_name + "'s favorite language: ")
+
+friend4_name = input("Enter the name of friend 4: ")
+lang[friend4_name] = input("Enter " + friend4_name + "'s favorite language: ")
+
+# Print the dictionary
+print(lang)
+
+OUTPUT:
+
+Enter the name of friend 1: ram
+Enter ram's favorite language: java
+Enter the name of friend 2: sham
+Enter sham's favorite language: html
+Enter the name of friend 3: ramesh
+Enter ramesh's favorite language: css
+Enter the name of friend 4: jitesh
+Enter jitesh's favorite language: javascript
+{'ram': 'java', 'sham': 'html', 'ramesh': 'css', 'jitesh': 'javascript'}
+
