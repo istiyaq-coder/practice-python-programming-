@@ -1,0 +1,31 @@
+
+Q.Write a program to input eight numbers from the user and display all the unique
+numbers (once).
+
+INPUT:
+
+num1 = int(input("enter the num:"))
+num2 = int(input("enter the num:"))
+num3 = int(input("enter the num:"))
+num4 = int(input("enter the num:"))
+num5 = int(input("enter the num:"))
+num6 = int(input("enter the num:"))
+num7 = int(input("enter the num:"))
+num8 = int(input("enter the num:"))
+
+num_set = {num1,num2,num3,num4,num5,num6,num7,num8}
+
+print("The unique numbers in the set are:",num_set)
+
+OUTPUT:
+enter the num:09
+enter the num:09
+enter the num:03
+enter the num:05
+enter the num:06
+enter the num:13
+enter the num:04
+enter the num:09
+The unique numbers in the set are: {3, 4, 5, 6, 9, 13}
+
+
