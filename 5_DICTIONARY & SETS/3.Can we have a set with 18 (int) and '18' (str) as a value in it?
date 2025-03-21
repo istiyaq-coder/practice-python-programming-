@@ -1,0 +1,14 @@
+Q.Can we have a set with 18 (int) and '18' (str) as a value in it?
+INPUT:
+num = 18
+var = "18"
+
+set_num = {num,var}
+
+print(set_num)
+print(type(set_num))
+
+OUTPUT:
+{18, '18'}
+<class 'set'>
+YES; we can have a set with 18 (int) and '18' (str) as a value in set
